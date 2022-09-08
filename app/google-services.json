@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "541063699369",
+    "project_id": "expentrack-5d491",
+    "storage_bucket": "expentrack-5d491.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541063699369:android:d191e7a5b05e6523b9c2b8",
+        "android_client_info": {
+          "package_name": "com.example.expen_track"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541063699369-pr7gk8pgj6pcp5p1h1sdglars0ihtlrc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsc2Yoy_drTuCTGc3NA-2dzoMODi1fccI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541063699369-pr7gk8pgj6pcp5p1h1sdglars0ihtlrc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

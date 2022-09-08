@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/drawer_layout"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:fitsSystemWindows="true"-->
+<!--    tools:openDrawer="start">-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/money"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Daily Expance Tracker"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sign in to Continue"
+        android:textColor="#000000"
+        android:textSize="16sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="319dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="48dp"
+        android:text="UserName"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="315dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+
+    <!--    <include-->
+    <!--        android:id="@+id/app_bar_main"-->
+    <!--        layout="@layout/app_bar_main"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+
+    <!--    <com.google.android.material.navigation.NavigationView-->
+    <!--        android:id="@+id/nav_view"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_gravity="start"-->
+    <!--        android:fitsSystemWindows="true"-->
+    <!--        app:headerLayout="@layout/nav_header_main"-->
+    <!--        app:menu="@menu/activity_main_drawer" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
