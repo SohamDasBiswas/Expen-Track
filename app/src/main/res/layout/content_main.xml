@@ -8,6 +8,74 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="88dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Paid by Name"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Expence Name"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="300dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. 0.00"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. -0.00"
+            android:textColor="#ff0000"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
+
     <ImageButton
         android:layout_width="55dp"
         android:layout_height="55dp"
@@ -36,6 +104,245 @@
         app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="774dp"></ImageButton>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="229dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Paid by Name"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Expence Name"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="300dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. 0.00"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. -0.00"
+            android:textColor="#ff0000"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="370dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="88dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Paid by Name"
+                android:textColor="@color/teal_700"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="Expence Name"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="300dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="Rs. 0.00"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="Rs. -0.00"
+                android:textColor="#ff0000"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Paid by Name"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Expence Name"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="300dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. 0.00"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. -0.00"
+            android:textColor="#ff0000"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="511dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Paid by Name"
+            android:textColor="@color/teal_700"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Expence Name"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="300dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. 0.00"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="Rs. -0.00"
+            android:textColor="#ff0000"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
 
     <!--    <fragment-->
 <!--        android:id="@+id/nav_host_fragment_content_main"-->
